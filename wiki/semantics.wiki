@@ -2,7 +2,7 @@
 #labels Phase-Requirements
 
 == rules ==
-*||description||||weight||||pattern||*
+||*description*||||*weight*||||*pattern*||
 ||singular plural||||0||||+s / _specific patterns_||
 ||description||||weight||||pattern||
 ||description||||weight||||pattern||
