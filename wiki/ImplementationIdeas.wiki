@@ -1,0 +1,22 @@
+#summary All Implementation Ideas, as they come
+#labels Phase-Requirements,Featured,Intelligence,System,Awareness
+
+= Introduction =
+
+This is the base page for all implementation ideas. At first they should all be written directly in here. But as they grow, they should be put into an ad hoc structure.
+
+== How to input an idea: ==
+  * The idea should be in the section that it belongs to, and a new one should be created if no corresponding section exists
+  * The issue the idea addresses or the solution it provides should be set as the title
+  * ...
+  * See example below
+
+
+= Ideas =
+
+== Command Interpretation ==
+
+=== Awareness of the system ===
+The system should be aware of itself, as much as of the external world, and it should be able to execute its own methods, create objects of its own, etc...
+
+This means that the system should have access to itself by Reflection, and know how to use its items (methods, classes, objects, variables...)
