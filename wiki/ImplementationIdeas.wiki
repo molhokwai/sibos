@@ -30,7 +30,7 @@ The system will search on all it is aware of:
   * data, as typed content:
     * textual content (documents, media, binary files title and textual attributes, code type names and comments)
     * patterns: for binary content media (image, audio, video)
-    * executables (reverse engineering, code analysis): namespaces, classes, methods, variables..)
+    * executables (reverse engineering, code search): namespaces, classes, methods, variables..)
 
 The search will be based on patterns for which the parameters will be:
   * the data type
