@@ -23,7 +23,7 @@ The system should be aware of context, and it should be able to execute context'
 
 The context being  the execution context, itself, or any other external world context...
 
-The system should be aware of words denoting a (change of context).
+The system should be aware of words denoting a (change of) context.
 
 === Search ===
 The system will search on all it is aware of:
