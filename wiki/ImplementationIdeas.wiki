@@ -13,7 +13,7 @@ This is the base page for all implementation ideas. At first they should all be 
   * See example below
 
 
-
+--
 = Ideas =
 
 == Command Interpretation ==
