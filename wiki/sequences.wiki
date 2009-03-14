@@ -1,7 +1,7 @@
 #summary sample sequences...
 #labels Phase-Requirements,Phase-Design
 
-== objectivation / contextualization / system request ==
+=== objectivation / contextualization / system request ===
 _Assumption: System knows "view profiles" query (responds using the google membership api by default, for example) _
 
 User enters "view larry page profile". System:
