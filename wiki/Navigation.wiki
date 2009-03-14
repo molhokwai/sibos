@@ -3,4 +3,5 @@
   * [http://code.google.com/p/sibos/wiki/Home home]
   * [http://code.google.com/p/sibos/wiki/ImplementationIdeas implementation ideas]
 ----
+=== advanced ===
   * [http://code.google.com/p/sibos/wiki/AbstractSemanticSearch advanced : abstract semantic search]
