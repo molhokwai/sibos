@@ -18,8 +18,12 @@ This is the base page for all implementation ideas. At first they should all be 
 
 == Command Interpretation ==
 
-=== (Self)Awareness of the system ===
-The system should be aware of itself, as much as of the external world, and it should be able to execute its own methods, create objects of its own, etc... This means that the system should have access to itself by Reflection, and know how to use its items (methods, classes, objects, variables...)
+=== Awareness of the system ===
+The system should be aware of context, and it should be able to execute context's methods, create contextual objects, etc... This means that the system should have access to context by Reflection, and know how to use its items (data, methods, classes, objects, variables...)
+
+The context being  the execution context, itself, or any other external world context...
+
+The system should be aware of words denoting a (change of context).
 
 === Search ===
 The system will search on all it is aware of:
