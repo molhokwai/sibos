@@ -4,4 +4,4 @@
 = glossary =
 
 == <span id="sourcetargetcontextualization">source/target contextualization</span> ==
-Contextualization at the source of the input. The system will search either in the context of execution, or in the context of known the target application/system
+Contextualization of the input. The system will search either in the context of execution, or in the context of known the target application/system
