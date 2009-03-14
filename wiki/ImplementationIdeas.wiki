@@ -19,6 +19,30 @@ This is the base page for all implementation ideas. At first they should all be 
 == Command Interpretation ==
 
 === (Self)Awareness of the system ===
-The system should be aware of itself, as much as of the external world, and it should be able to execute its own methods, create objects of its own, etc...
+The system should be aware of itself, as much as of the external world, and it should be able to execute its own methods, create objects of its own, etc... This means that the system should have access to itself by Reflection, and know how to use its items (methods, classes, objects, variables...)
 
-This means that the system should have access to itself by Reflection, and know how to use its items (methods, classes, objects, variables...)
+=== Search ===
+The system will search on all it is aware of:
+  * data, as typed content:
+    * textual content (documents, media, binary files title and textual attributes, code type names and comments)
+    * patterns: for binary content media (image, audio, video)
+    * executables (reverse engineering, code analysis): namespaces, classes, methods, variables..)
+
+The search will be based on patterns for which the parameters will be:
+  * the data type
+  * the context: relative location, not absolute. Location relative to the system itself, not absolute to avoid bias
+  * the relevance (match with input data)
+  * the (execution) result
+  * the feedback
+
+
+The system will:
+  * weigh entry input text words through defined rules based on grammatical structure,
+  * search for matches, based on evolving, incremental weighed association rules (eg "view"->image, "play"->media, "open"->application...)
+  * classify them by matching input text with output text words  words weight (same rules)
+  * execute search result operation  (. Depending on by weighing search parameters
+
+=== Learning ===
+The patterns parameters are the ones defined above. The system will learn by weighing input text words, searching  against execution / output result & feedback.
+  * The weighing of entry input text words will be based on defined rules based on grammatical structure
+  * The weighing 
