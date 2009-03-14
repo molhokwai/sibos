@@ -1,14 +1,12 @@
 #summary Home page...
-#labels Phase-Requirements,Home
+#labels Phase-Requirements,Home,Featured
 
 = Introduction =
 
-Add your content here.
+As in the project home : An operating system based on search, the application of the search paradigm to operating systems, the purpose being that all operations, data, objects on the system should be available through a (google like) search engine interface.
 
+Presentation of the Idea is [http://ideasprojects-en.blogspot.com/2009/02/search-based-operating-systems.html here]
+Additions, parallels, discussion [http://ideasprojects-en.blogspot.com/2009/03/search-based-operating-system-2.html here]
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= Implementation =
+The implementation will start with a web based sample system, to illustrate the idea...
