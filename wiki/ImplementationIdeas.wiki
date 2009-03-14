@@ -31,18 +31,28 @@ The system will search on all it is aware of:
 The search will be based on patterns for which the parameters will be:
   * the data type
   * the context: relative location, not absolute. Location relative to the system itself, not absolute to avoid bias
+  * grammatical association patterns: which globally similar but gramatically different input patterns to be associated
   * the relevance (match with input data)
   * the (execution) result
   * the feedback
 
 
-The system will:
+The system will search for known input and immediately provide the response if found. If not:
   * weigh entry input text words through defined rules based on grammatical structure,
-  * search for matches, based on evolving, incremental weighed association rules (eg "view"->image, "play"->media, "open"->application...)
+  * search for matches, based on these pattern parameters: 
+    * evolving, incremental weighed association rules (eg "view"->image, "play"->media, "open"->application...)
+    * location
+    * relevance)
   * classify them by matching input text with output text words  words weight (same rules)
-  * execute search result operation  (. Depending on by weighing search parameters
+  * execute search result operation
+  * back propagate feedback
+
+If a matching but not exact known input is found, the system will evaluate the weight of the differential, grammatically and semantically:
+  * If important semantical differential, the system will proceed to contextualization, which will be considered as a sub search (eg finding the "we" in a search)
+  * If important grammatical differential, the system will proceed to a new search, add the results to the response of the known input, and back propagate grammatical association pattern
 
 === Learning ===
-The patterns parameters are the ones defined above. The system will learn by weighing input text words, searching  against execution / output result & feedback.
-  * The weighing of entry input text words will be based on defined rules based on grammatical structure
-  * The weighing 
+The patterns parameters are the ones defined above. The system will learn by weighing input text words, and back propagating output result feedback.
+  * The weighing of entry input text words will be based on defined rules on grammatical and semantic structure
+  * The weighing of association rules will be the one to evolve, through back propagation
+  * Search result operation fatal failure should be handled by operators of the system
