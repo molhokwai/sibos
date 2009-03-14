@@ -52,8 +52,8 @@ The system will search for known input and immediately provide the response if f
   * back propagate feedback
 
 If a matching but not exact known input is found, the system will evaluate the weight of the differential, grammatically, semantically, and contextually:
-  * If contextual differential, the system will proceed to [http://code.google.com/p/sibos/wiki/glossary#sourcecontextualization source contextualization], which will be considered as a sub search (eg searching for the "we") 
-  * If below-a-specified-limit semantical differential, the system will proceed to [http://code.google.com/p/sibos/wiki/glossary#targetcontextualization target contextualization], which will be considered as a sub search (eg or searching for a "write" instead of a "read")
+  * If contextual differential, the system will proceed to [http://code.google.com/p/sibos/wiki/glossary#sourcetargetcontextualization source contextualization], which will be considered as a sub search (eg searching for the "we") 
+  * If below-a-specified-limit semantical differential, the system will proceed to [http://code.google.com/p/sibos/wiki/glossary#sourcetargetcontextualization target contextualization], which will be considered as a sub search (eg or searching for a "write" instead of a "read")
   * If important grammatical differential, the system will proceed to a new search in parallel of getting the reponse of the known input, merge the results, and back propagate grammatical association pattern depending on feedback
 
 === Learning ===
