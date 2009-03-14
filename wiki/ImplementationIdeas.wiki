@@ -5,11 +5,13 @@
 
 This is the base page for all implementation ideas. At first they should all be written directly in here. But as they grow, they should be put into an ad hoc structure.
 
+
 == How to input an idea: ==
   * The idea should be in the section that it belongs to, and a new one should be created if no corresponding section exists
   * The issue the idea addresses or the solution it provides should be set as the title
   * ...
   * See example below
+
 
 
 = Ideas =
