@@ -1,8 +1,29 @@
 #summary semantic rules.
 #labels Phase-Requirements
 
-== rules ==
+== introduction ==
+Rules and configuration to be stored in database.
+The purpose being that these will evolve with usage...
+
+== rules & weight ==
 ||*description*||||*weight*||||*pattern*||
 ||singular plural||||0||||+s / _specific patterns_||
-||description||||weight||||pattern||
-||description||||weight||||pattern||
+||pronoun used||||10||||[pronoun][verb]...||
+||...||||...||||...||
+
+== contextual words ==
+||*word (type)*||||*...*||||*...*||
+||pronouns||||...||||_list_||
+||this||||...||||...||
+|||...|||...||||...||
+
+== imperative verbs ==
+||open||||read||||write||||display||||show||||create||||delete||
+||...||||...||||...||||...||||...||||...||||...||
+
+== conjugation ==
+teaching the system conjugation, form of the verb linked to the corresponding pronoun
+||*verb*||||*form*||||*tense*||||*pronoun(s)*||
+||play||||play||||*tense*||||`*`except 3rd||
+||...||||...||||..||||...||
+||...||||...||||..||||...||
