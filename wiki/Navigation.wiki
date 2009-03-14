@@ -1,0 +1,7 @@
+#labels utility
+=== navigation ===
+[/Home home]
+[/ImplementationIdeas implementation ideas]
+<br/><br/>
+----
+[/AbstractSemanticSearch advanced : abstract semantic search]
