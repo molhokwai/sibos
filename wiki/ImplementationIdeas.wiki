@@ -18,7 +18,7 @@ This is the base page for all implementation ideas. At first they should all be 
 
 == Command Interpretation ==
 
-=== Awareness of the system ===
+=== (Self)Awareness of the system ===
 The system should be aware of itself, as much as of the external world, and it should be able to execute its own methods, create objects of its own, etc...
 
 This means that the system should have access to itself by Reflection, and know how to use its items (methods, classes, objects, variables...)
