@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary sample sequences...
 #labels Phase-Requirements,Phase-Design
 
 == objectivation / contextualization / system request ==
