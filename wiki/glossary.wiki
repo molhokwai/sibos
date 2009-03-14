@@ -3,5 +3,8 @@
 
 = glossary =
 
+== <span id="contextualization">contextualization</span> ==
+The process of determining the context of an input. An example [http://code.google.com/p/sibos/wiki/sequences#contextualization here].
+
 == <span id="sourcetargetcontextualization">source/target contextualization</span> ==
 Contextualization of the input. The system will search either in the context of execution, or in the context of known the target application/system
