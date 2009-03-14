@@ -7,6 +7,7 @@ As in the project home : An operating system based on search, the application of
 
 Presentation of the Idea is [http://ideasprojects-en.blogspot.com/2009/02/search-based-operating-systems.html here]
 Additions, parallels, discussion [http://ideasprojects-en.blogspot.com/2009/03/search-based-operating-system-2.html here]
-
+<br/><br/>
+----
 = Implementation =
 The implementation will start with a web based sample system, to illustrate the idea...
