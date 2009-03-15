@@ -1,0 +1,8 @@
+#summary grammatical rules & patterns - semantical translation.
+#labels Phase-Requirements
+
+== Introduction ==
+Teaching the system to grammatically parse and find the semantics...
+
+
+== ... ==
