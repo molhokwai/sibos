@@ -27,3 +27,8 @@ teaching the system conjugation, form of the verb linked to the corresponding pr
 ||play||||play||||*tense*||||`*`except 3rd||
 ||...||||...||||..||||...||
 ||...||||...||||..||||...||
+
+
+== objectivation tokens : question ==
+||who||||what||||when||||where||||how||||why||||...||
+||...||||...||||...||||...||||...||||...||||...||
