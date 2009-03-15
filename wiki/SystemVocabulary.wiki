@@ -3,4 +3,4 @@
 
 == vocabulary & grammar ==
 
-||word||||action||||grammatical rule||||...||
+||word||||action||||grammatical rule||||.............||
