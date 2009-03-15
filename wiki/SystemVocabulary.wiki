@@ -1,0 +1,6 @@
+#summary the words and forms the system can relate actions/processes to.
+#labels Phase-Requirements
+
+== vocabulary & grammar ==
+
+||word||||action||||grammatical rule||||...||
