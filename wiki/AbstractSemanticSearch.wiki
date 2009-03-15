@@ -1,4 +1,4 @@
-#summary How to get relevant results for a searches such as "What does Larry Page like?" or "What do I like?"
+#summary How to get relevant results for searches such as "What does Larry Page like?" or "What do I like?"
 #labels intelligence,semantic,search
 
 == grammar, semantic, objectivation ==
