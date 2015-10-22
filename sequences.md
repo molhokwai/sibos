@@ -1,0 +1,8 @@
+### <span>objectivation</span> / <span>contextualization</span> / <span>system request</span> ###
+_Assumption: System knows "view profiles" query (responds using the google membership api by default, for example)_
+
+User enters "view larry page profile". System:
+  * matches the query with the "view profiles" and finds that the grammar is the same and the semantics also, through specified rules
+  * (implicitely?) objectivizes the query by putting the "larry page" in the context of an item of the profiles collection
+  * target-contextualizes by looking for a method to search for profiles on the target api
+  * objectivizes the search (based on attribute name priority order rules) by looking prioritary in the "name" field

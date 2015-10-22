@@ -1,0 +1,64 @@
+<a href='Hidden comment: 
+= Introduction =
+
+This is the base page for all implementation ideas. At first they should all be written directly in here. But as they grow, they should be put into an ad hoc structure.
+
+
+== How to input an idea: ==
+* The idea should be in the section that it belongs to, and a new one should be created if no corresponding section exists
+* The issue the idea addresses or the solution it provides should be set as the title
+* ...
+* See example below
+
+<br/><br/>
+'></a>
+
+---
+
+# Ideas #
+
+## Command Interpretation ##
+
+### Awareness of the system ###
+The system should be aware of context, and it should be able to execute context's methods, create contextual objects, etc... This means that the system should have access to context by Reflection, and know how to use its items (data, methods, classes, objects, variables...)
+
+The context being  the execution context, itself, or any other external world context...
+
+The system should be aware of words denoting a (change of) context.
+
+### Search ###
+The system will search on all it is aware of:
+  * data, as typed content:
+    * textual content (documents, media, binary files title and textual attributes, code type names and comments)
+    * patterns: for binary content media (image, audio, video)
+    * executables (reverse engineering, code search): namespaces, classes, methods, variables..)
+
+The search will be based on patterns for which the parameters will be:
+  * the data type
+  * the context: relative location, not absolute. Location relative to the system itself, not absolute to avoid bias
+  * grammatical association patterns: which globally similar but gramatically different input patterns to be associated
+  * the relevance (match with input data)
+  * the (execution) result
+  * the feedback
+
+
+The system will search for known input and immediately provide the response if found. If not:
+  * weigh entry input text words through defined rules based on grammatical structure,
+  * search for matches, based on these pattern parameters:
+    * evolving, incremental weighed association rules (eg "view"->image, "play"->media, "open"->application...)
+    * location
+    * relevance)
+  * classify them by matching input text with output text words  words weight (same rules)
+  * execute search result operation
+  * back propagate feedback
+
+If a matching but not exact known input is found, the system will evaluate the weight of the differential, grammatically, semantically, and contextually:
+  * If contextual differential, the system will proceed to [source contextualization](http://code.google.com/p/sibos/wiki/glossary#sourcetargetcontextualization), which will be considered as a sub search (eg searching for the "we")
+  * If below-a-specified-limit semantical differential, the system will proceed to [target contextualization](http://code.google.com/p/sibos/wiki/glossary#sourcetargetcontextualization), which will be considered as a sub search (eg or searching for a "write" instead of a "read")
+  * If important grammatical differential, the system will proceed to a new search in parallel of getting the reponse of the known input, merge the results, and back propagate grammatical association pattern depending on feedback
+
+### Learning ###
+The patterns parameters are the ones defined above. The system will learn by weighing input text words, and back propagating output result feedback.
+  * The weighing of entry input text words will be based on defined rules on grammatical and semantic structure
+  * The weighing of association rules will be the one to evolve, through back propagation
+  * Search result operation fatal failure should be handled by operators of the system

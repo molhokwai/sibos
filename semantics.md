@@ -1,0 +1,36 @@
+## introduction ##
+Rules and configuration to be stored in database.
+The purpose being that these will evolve with usage...
+
+## rules & weight ##
+|**description**|**weight**| |**pattern**| |
+|:--------------|:---------|:|:----------|:|
+|singular plural|0         | |+s / _specific patterns_| |
+|pronoun used   |10        | |[pronoun](pronoun.md)[verb](verb.md)...| |
+|...            |...       | |...| |
+
+## contextual words ##
+|**word (type)**|**...**| |**...**| |
+|:--------------|:------|:|:------|:|
+|pronouns       |...    | |_list_| |
+|this           |...    | |...| |
+|...            |...    |...| |
+
+## imperative verbs ##
+|open|read| |write| |display| |show| |create| |delete| |
+|:---|:---|:|:----|:|:------|:|:---|:|:-----|:|:-----|:|
+|... |... | |...| |...  | |...| |...    | |...| |
+
+## conjugation ##
+teaching the system conjugation, form of the verb linked to the corresponding pronoun
+|**verb**|**form**| |**tense**| |**pronoun(s)**| |
+|:-------|:-------|:|:--------|:|:-------------|:|
+|play    |play    | |**tense**| |`*`except 3rd| |
+|...     |...     | |..| |...      | |
+|...     |...     | |..| |...      | |
+
+
+## objectivation tokens : question ##
+|who|what| |when| |where| |how| |why| |...| |
+|:--|:---|:|:---|:|:----|:|:--|:|:--|:|:--|:|
+|...|... | |...| |... | |...| |...  | |...| |
